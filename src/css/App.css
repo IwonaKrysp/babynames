@@ -1,0 +1,137 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-top: 10px;
+}
+
+.App-main {
+  background-color: #282c34;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-top: 30px;
+}
+
+.App-main-names {
+  width: 50%;
+  color: #b9c1d0;
+  /*  Neumorphism Effect */
+  border: 0;
+  border-radius: 11px;
+  background: #282c34;
+  box-shadow: inset 5px 5px 10px #14161a, inset -5px -5px 10px #3c424e;
+}
+
+.App-main-names-title {
+  color: #646b79;
+  font-size: calc(10px + 4vmin);
+  letter-spacing: 1px;
+}
+
+.App-input {
+  width: 30%;
+  padding: 24px 30px;
+  margin: 0 25px 0 0;
+  color: #b9c1d0;
+  font-size: calc(10px + 2vmin);
+  /*  Neumorphism Effect */
+  border: 0;
+  border-radius: 11px;
+  background: #282c34;
+  box-shadow: inset 5px 5px 10px #14161a, inset -5px -5px 10px #3c424e;
+}
+
+.App-btn-all {
+  padding: 18px 18px;
+  margin: 10px;
+  color: #646b79;
+  font-size: calc(10px + 2vmin);
+  /*  Neumorphism Effect */
+  border: 0;
+  border-radius: 11px;
+  background: linear-gradient(315deg, #2b2f38, #24282f);
+  box-shadow: -5px -5px 2px #21242b, 5px 5px 2px #2f343d;
+}
+
+.App-btn-f {
+  padding: 18px 28px;
+  margin: 10px;
+  color: rgb(255, 192, 203);
+  font-size: calc(10px + 2vmin);
+  /*  Neumorphism Effect */
+  border: 0;
+  border-radius: 11px;
+  background: linear-gradient(315deg, #24282f, #2b2f38);
+  box-shadow: -5px -5px 2px #21242b, 5px 5px 2px #2f343d;
+}
+
+.App-btn-m {
+  padding: 18px 20px;
+  margin: 10px;
+  color: royalblue;
+  font-size: calc(10px + 2vmin);
+  /*  Neumorphism Effect */
+  border: 0;
+  border-radius: 11px;
+  background: linear-gradient(315deg, #24282f, #2b2f38);
+  box-shadow: -5px -5px 2px #21242b, 5px 5px 2px #2f343d;
+}
+
+.App-btn-star{
+  padding: 8px 10px;
+  margin: 10px 30px;
+  color: royalblue;
+  font-size: calc(10px + 2vmin);
+  /*  Neumorphism Effect */
+  border: 0;
+  background: #282c34;
+  
+}
+
+.App-btn-remove{
+  padding: 8px 10px 5px ;
+  margin: 10px 30px;
+  color: royalblue;
+  font-size: calc(10px + 2vmin);
+  /*  Neumorphism Effect */
+  border: 0;
+  background: #282c34;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
